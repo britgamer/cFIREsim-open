@@ -1,4 +1,4 @@
-$(document).ready(function () {
+// $(document).ready(function () {
     angular.module('cFIREsim', [])
         .controller('simulationInputController', ['$scope', function($scope) {
             $scope.data = {
@@ -472,4 +472,4 @@ $(document).ready(function () {
         }]);
 
 
-})
+// })
